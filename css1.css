@@ -98,10 +98,10 @@
     color:var(--text-hover)
 }
 .cardText.cardTextCentered.cardText-first>button,.emby-linkbutton>a,a:not(.emby-button){
-    color:#f0f2f3(--link-color)!important
+    color:var(--link-color)!important
 }
 .cardText.cardTextCentered.cardText-first>button:hover,.emby-linkbutton>a:hover,a:hover:not(.emby-button){
-    color:var(--link-color-hover)!important
+    color:#f0f2f3(--link-color-hover)!important
 }
 html{
     color:var(--theme-text-color);
